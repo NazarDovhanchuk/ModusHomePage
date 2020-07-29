@@ -11,7 +11,8 @@
     "lint:html": "linthtml ./src",
     "lint": "concurrently \"npm run lint:js\" \"npm run lint:css\" \"npm run lint:html\"",
     "predeploy": "npm run build",
-    "deploy": "./deploy.sh",
+    "deploy": "gh-pages -d dist",
+    "publish": "deploy",
     "test": "jest ./src"
   },
   "keywords": [],
@@ -28,8 +29,8 @@
     "eslint-plugin-node": "^11.1.0",
     "husky": {
       "hooks": {
-        "pre-commit": "npm run lint",
-        "pre-push": "npm test"
+        "post-commit": "git update-index --again",
+        "pre-commit": "lint-staged"
       }
     },
     "jest": "^26.1.0",
