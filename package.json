@@ -13,7 +13,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "publish": "deploy",
-    "test": "jest ./src"
+    "test": "npm run lint"
   },
   "keywords": [],
   "author": "",
@@ -27,12 +27,6 @@
     "eslint": "^7.5.0",
     "eslint-plugin-jest": "^23.19.0",
     "eslint-plugin-node": "^11.1.0",
-    "husky": {
-      "hooks": {
-        "post-commit": "git update-index --again",
-        "pre-commit": "lint-staged"
-      }
-    },
     "jest": "^26.1.0",
     "node-sass": "^4.14.1",
     "parcel": "^1.12.4",
@@ -40,5 +34,11 @@
   },
   "dependencies": {
     "slick-carousel": "^1.8.1"
+  },
+  "husky": {
+    "hooks": {
+      "post-commit": "git update-index --again",
+      "pre-commit": "lint-staged"
+    }
   }
 }
