@@ -36,5 +36,8 @@
     "node-sass": "^4.14.1",
     "parcel": "^1.12.4",
     "stylelint": "^13.6.1"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
   }
 }
