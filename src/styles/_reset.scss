@@ -2,9 +2,12 @@ body,
 a,
 button,
 ul,
+li,
 h3 {
   list-style: none;
   text-decoration: none;
   border: none;
+  outline: none;
   padding: 0;
 }
+

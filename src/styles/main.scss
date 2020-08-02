@@ -1,12 +1,14 @@
 @import "reset";
+@import "bootstrap";
+@import "fontawesome";
 @import "header";
 @import "navigation";
 @import "slider";
 @import "services";
 @import "description";
-@import "fontawesome";
 @import "gallery";
 @import "footer";
+@import "clients";
 
 * {
   margin: 0;
@@ -21,6 +23,6 @@ a {
   text-transform: uppercase;
 }
 
-.container {
-  margin-bottom: 20px;
-}
+// .container {
+//   margin-bottom: 20px;
+// }

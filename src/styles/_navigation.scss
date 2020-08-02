@@ -5,6 +5,14 @@
   }
 
   &__item {
+    margin-right: 5px;
+    transition: all ease-out 0.05s;
+
+    &-active {
+      background-color: #62a29e;
+      border-radius: 5px;
+      border-bottom: 3px solid rgba(82, 139, 134, 0.6);
+    }
     
     &:hover {
       background-color: #62a29e;
@@ -16,8 +24,13 @@
   &__link {
     display: block;
     padding: 5px 15px;
-
     color: #fff;
     font-size: 13px;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
   }
+
 }

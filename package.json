@@ -33,7 +33,9 @@
     "stylelint": "^13.6.1"
   },
   "dependencies": {
-    "slick-carousel": "^1.8.1"
+    "bootstrap": "^3.4.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^6.1.1"
   },
   "husky": {
     "hooks": {

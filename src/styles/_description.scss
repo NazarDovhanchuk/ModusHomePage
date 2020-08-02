@@ -2,11 +2,8 @@
   max-width: 1170px;
   margin: 0 auto;
 
-  display: flex;
-
-  &__info {
-    min-width: 270px;
-  }
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 
   &__title {
     font-size: 16px;
@@ -66,9 +63,8 @@
 }
 
 .rate {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   
   &__number {
     position: relative;
@@ -93,6 +89,6 @@
     font-size: 16px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-left: 6px;
+    text-align: center;
   }
 }

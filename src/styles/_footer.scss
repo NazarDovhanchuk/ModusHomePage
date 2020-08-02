@@ -5,13 +5,39 @@
     max-width: 1170px;
     margin: 0 auto;
     padding-top: 30px;
-    
+
     display: flex;
     justify-content: space-between;
   }
 
   &__navigation {
     display: flex;
+  }
+
+  &__end {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  &__bottom {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__copyright {
+    font-size: 13px;
+    color: #fff;
+  }
+
+  &__link {
+    margin-right: 20px;
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
 

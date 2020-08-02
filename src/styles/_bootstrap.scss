@@ -1,0 +1,49 @@
+#bootstrap-overrides .btn-secondary {
+  background-color: #76c7c0;
+  border: none;
+}
+
+#bootstrap-overrides .dropdown-toggle::after {
+  border: none;
+  content: none;
+}
+
+#bootstrap-overrides .btn {
+  font-size: 13px;
+  transition: none;
+
+  &:hover {
+    background-color: #62a29e;
+  }
+
+  &:active {
+    border: none;
+    outline: none;
+    background-color: #e5655d;
+  }
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: #e5655d;
+  }
+}
+
+#bootstrap-overrides .show {
+  background-color: #e8645a;
+  border-radius: 5px;
+}
+
+#bootstrap-overrides .dropdown-item {
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border-bottom: none;
+  font-size: 13px;
+  transition: all ease-out 0.2s;
+
+  &:hover {
+    background-color: #76c7c0;
+  }
+}
