@@ -1,0 +1,142 @@
+.footer {
+  background: #76c7c0 url(../img/footer/rule-top.png) left top repeat-x;
+
+  &__wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__navigation {
+    display: flex;
+  }
+}
+
+.contact {
+
+  max-width: 370px;
+
+  &__title {
+    color: #fff;
+    font-size: 40px;
+  }
+
+  &__paragraph {
+    font-size: 13px;
+    line-height: 23px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  &__about {
+    margin-bottom: -5px;
+  }
+
+  &__link {
+    margin-left: 20px;
+    color: #fff;
+    line-height: 36px;
+    font-weight: 600;
+    font-style: italic;
+  }
+}
+
+.company {
+  &__title {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    padding-left: 25px;
+  }
+
+  &__item {
+    line-height: 24px;
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 13px;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.community {
+  &__title {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    padding-left: 25px;
+  }
+
+  &__item {
+    line-height: 24px;
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 13px;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.blog {
+
+  max-width: 370px;
+
+  &__info {
+    margin-left: 20px;
+  }
+  
+  &__title {
+    color: #fff;
+
+    font-size: 20px;
+
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  &__comment {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &__foto {
+    width: 72px;
+    height: 70px;
+    border-radius: 5px;
+  }
+
+  &__paragraph {
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  &__time {
+    color: rgba(0, 0, 0, 0.5);
+  }
+}

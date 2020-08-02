@@ -1,0 +1,121 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f3f3f3;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  &__info {
+    padding: 15px 0 0 15px;
+  }
+
+  &__head {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: #7f8c8c;
+    font-weight: 600;
+  }
+
+  &__paragraph {
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #777;
+  }
+
+  &__button {
+    padding: 12px;
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 5px;
+    background: #e8645a;
+    border-bottom: 4px solid #e5655d;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #d55149;
+      border-bottom: 4px solid #d54b40;
+    }
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    position: relative;
+
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    border-bottom: 4px solid #e5e6e6;
+
+    margin-right: 30px;
+    padding: 0 10px;
+    width: 270px;
+
+    &:hover {
+      background: #fff;
+    }
+  }
+
+  &__icon {
+    height: 56px;
+    width: 56px;
+    margin-bottom: 12px;
+    padding-top: 50px;
+  }
+}
+
+.item__head {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  color: #7f8c8c;
+
+}
+
+.item__paragraph {
+  margin-bottom: 50px;
+
+  font-size: 13px;
+  line-height: 21px;
+  color: #777;
+}
+
+.item__link {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  bottom: -25px;
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 0;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  background: #76c7c0;
+  border-bottom: 4px solid #5dbdb4;
+  transition: all ease-out 0.2s;
+}

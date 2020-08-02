@@ -1,10 +1,14 @@
 .header {
-  max-width: 1170px;
-  margin: 0 auto;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background: #76c7c0 url(../img/header/rule-bottom.png) left bottom repeat-x;
+
+  &__wrap {
+    margin: 0 auto;
+    max-width: 1170px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   &__text {
     color: #fff;
