@@ -47,6 +47,11 @@
     color: #fff;
     font-size: 20px;
     text-align: center;
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 
   &__list {
@@ -118,4 +123,9 @@
   background: #76c7c0;
   border-bottom: 4px solid #5dbdb4;
   transition: all ease-out 0.2s;
+
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 }

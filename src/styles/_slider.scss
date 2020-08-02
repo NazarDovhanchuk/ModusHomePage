@@ -1,69 +1,37 @@
 .slider {
   position: relative;
 
+  &__capture {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    right: 36%;
+  }
+
+  &__title {
+    display: inline-block;
+    padding: 0 12px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    background: #e8645a;
+    border-radius: 5px;
+  }
+
+  &__description {
+    padding: 7px 25px 12px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+  }
+  
   &__img {
     width: 100%;
     height: 500px;
   }
-}
-
-.slider .slick-arrow {
-  position: absolute;
-  padding: 20px;
-  right: 0%;
-  top: 50%;
-  z-index: 1;
-  font-size: 0;
-  
-  cursor: pointer;
-
-  &:hover {
-    box-shadow: 5px 5px 5px rgba(226, 83, 75, 0.6);
-  }
-}
-
-.slider .slick-arrow.slick-prev {
-  left: 0;
-  background: url("../img/carousel/arrow-left.png") no-repeat center;
-  background-color: #e8645a;
-  height: 22px;
-  width: 22px;
-
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.slider .slick-arrow.slick-next {
-  right: 0;
-  background: url("../img/carousel/arrow-right.png") no-repeat center;
-  background-color: #e8645a;
-  height: 22px;
-  width: 22px;
-
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-.slick-dots {
-  display: flex;
-}
-
-.slider .slick-dots {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slider .slick-dots li {
-  margin: 0 10px;
-}
-
-.slider .slick-dots button {
-  font-size: 0;
-  height: 5px;
-  width: 60px;
-}
-
-.slider .slick-dots li.slick-active button {
-  background-color: #e2534b;
 }

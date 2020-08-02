@@ -3,42 +3,36 @@ import 'swiper/swiper-bundle.css';
 
 $('document').ready(function(){
   $('.slider').slick({
-    dots: true
-  });
+		dots: true,
+		infinite: true
+	});
+	
+	$('.carousel').slick({
+		centerMode: true,
+		centerPadding: '60px',
+		slidesToShow: 3,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 3
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 1
+				}
+			}
+		]
+	});
 })
-
-
-const mySwiper = new Swiper ('.swiper-container', {
-	nextButton: '.swiper-right',
-	prevButton: '.swiper-left',
-	direction: 'horizontal',
-	loop: true,
-	slidesPerView: 6,
-	autoplay: 10000,
-	spaceBetween: 30,
-	breakpoints: {
-
-		320: {
-			slidesPerView: 1,
-			spaceBetween: 10
-		},
-
-		480: {
-			slidesPerView: 2,
-			spaceBetween: 20
-		},
-
-		768: {
-			slidesPerView: 3,
-			spaceBetween: 30
-		},
-
-		992: {
-			slidesPerView: 4,
-			spaceBetween: 30
-		}
-	}
-});
 
 
 
