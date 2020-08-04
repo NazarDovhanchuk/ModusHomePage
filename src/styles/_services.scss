@@ -41,6 +41,10 @@
       background-color: #d55149;
       border-bottom: 4px solid #d54b40;
     }
+
+    @media screen and (max-width:425px) {
+      padding: 5px;
+    }
   }
 
   &__link {
@@ -52,6 +56,10 @@
       color: #fff;
       text-decoration: none;
     }
+
+    @media screen and (max-width:425px) {
+      font-size: 10px;
+    }
   }
 
   &__list {
@@ -59,6 +67,11 @@
     justify-content: space-between;
     max-width: 1170px;
     margin: 0 auto;
+
+    @media screen and (max-width:425px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   &__item {
@@ -80,6 +93,10 @@
     &:hover {
       background: #fff;
       color: #d55149;
+    }
+
+    @media screen and (max-width:425px) {
+      margin-bottom: 25px;
     }
   }
 
@@ -130,5 +147,15 @@
     text-decoration: none;
     background: #e54f44;
     border-color: #e23a2d;
+  }
+
+  @media screen and (max-width: 998px) {
+    width: 100px;
+    margin-left: -50px;
+  }
+
+  @media screen and (max-width:425px) {
+    width: 200px;
+    margin-left: -100px;
   }
 }

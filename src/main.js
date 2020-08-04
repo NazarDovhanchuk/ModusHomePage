@@ -29,7 +29,7 @@ $('document').ready(function(){
 					centerPadding: '40px',
 					slidesToShow: 1
 				}
-			}
+			},
 		]
 	});
 

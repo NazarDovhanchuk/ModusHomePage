@@ -1,6 +1,13 @@
 .header {
   background: #76c7c0 url(../img/header/rule-bottom.png) left bottom repeat-x;
 
+  &__navigation {
+    
+    @media screen and (max-width:800px) {
+      display: none;
+    }
+  }
+
   &__wrap {
     margin: 0 auto;
     max-width: 1170px;
@@ -44,11 +51,12 @@
   }
 }
 
-.header__toggler:checked ~ .nav {
+.header__toggler:checked ~ .header__navigation {
   display: block;
   position: absolute;
   height: 50%;
 
-  top: 0;
-  right: 0;
+  top: 5%;
+  right: 5%;
+  z-index: 1;
 }
