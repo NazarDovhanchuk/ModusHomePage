@@ -6,7 +6,7 @@
 @import "slider";
 @import "services";
 @import "description";
-@import "gallery";
+@import "about";
 @import "footer";
 @import "carousel";
 @import "slick-slide";
@@ -27,4 +27,5 @@ a {
 
 .container {
   position: relative;
+  margin-bottom: 40px;
 }

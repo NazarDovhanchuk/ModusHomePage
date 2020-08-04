@@ -16,6 +16,10 @@
 
   &__end {
     background-color: rgba(0, 0, 0, 0.1);
+
+    @media screen and (max-width: 1024px) {
+      padding: 0 15px;
+    }
   }
 
   &__bottom {
@@ -42,8 +46,11 @@
 }
 
 .contact {
-
   max-width: 370px;
+
+  @media screen and (max-width: 1024px) {
+    padding-left: 15px;
+  }
 
   &__title {
     color: #fff;
@@ -67,6 +74,11 @@
     line-height: 36px;
     font-weight: 600;
     font-style: italic;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+    }
   }
 }
 
@@ -90,9 +102,10 @@
   &__link {
     color: #fff;
     font-size: 13px;
-    
+
     &:hover {
       text-decoration: underline;
+      color: #fff;
     }
   }
 }
@@ -117,21 +130,21 @@
   &__link {
     color: #fff;
     font-size: 13px;
-    
+
     &:hover {
       text-decoration: underline;
+      color: #fff;
     }
   }
 }
 
 .blog {
-
   max-width: 370px;
 
   &__info {
     margin-left: 20px;
   }
-  
+
   &__title {
     color: #fff;
 

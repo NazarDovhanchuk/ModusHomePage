@@ -14,4 +14,41 @@
     color: #fff;
     font-size: 40px;
   }
+
+  &__toggler {
+    display: none;
+  }
+
+  &__toggler-label {
+    display: none;
+    position: absolute;
+    right: 10px;
+    z-index: 100;
+
+    &::after {
+      content: "\2630";
+      color: #fff;
+      height: 12px;
+      width: 18px;
+
+      font-size: 24px;
+    }
+
+    @media (max-width: 800px) {
+      display: block;
+    }
+  }
+
+  &__toggler:checked + &__toggler-label::after {
+    content: "\2716";
+  }
+}
+
+.header__toggler:checked ~ .nav {
+  display: block;
+  position: absolute;
+  height: 50%;
+
+  top: 0;
+  right: 0;
 }

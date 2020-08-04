@@ -32,7 +32,17 @@ $('document').ready(function(){
 			}
 		]
 	});
+
 })
+
+$(".fancybox").fancybox();
+
+$(".contacts-popup").fancybox({
+	'autoSize': false,
+	'width': 240,
+	'maxHeight': 80,
+	'scrolling': 'no'
+});
 
 
 
