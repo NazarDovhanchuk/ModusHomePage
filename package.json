@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx parcel ./src/index.html --open",
+    "start": "npx parcel --public-url ./src/index.html --open",
     "build": "rm -rf ./dist && parcel build --public-url ./src/index.html",
     "lint:js": "eslint ./src",
     "lint:css": "stylelint ./src",
